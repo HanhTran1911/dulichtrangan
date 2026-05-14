@@ -1,0 +1,312 @@
+ .readheader {
+     color: #046503 !important;
+     font-weight: bold;
+     font-size: 27px;
+
+ }
+
+ .swiper {
+     width: 100%;
+     height: 300px;
+ }
+
+ .swiper-slide {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .swiper-slide img {
+     width: 100%;
+     height: 270px;
+     /* chỉnh chiều cao bạn muốn */
+     object-fit: cover;
+ }
+
+ .carousel-item {
+     position: relative;
+ }
+
+ .carousel {
+     overflow: hidden;
+ }
+
+ .carousel-caption {
+     position: absolute;
+     bottom: 10px;
+     left: 0;
+     right: 0;
+     z-index: 2;
+ }
+
+ .bg_image1 {
+     background-image: url("./image/taixuong1.jpg");
+     background-size: contain;
+     height: 300px;
+     padding-top: 250px;
+     image-rendering: crisp-edges;
+ }
+
+ .bg_image2 {
+     background-image: url("./image/taixuong2.jpg");
+     background-size: contain;
+     height: 300px;
+     padding-top: 250px;
+     image-rendering: crisp-edges;
+ }
+
+ .bg_image3 {
+     background-image: url("./image/taixuong3.jpg");
+     background-size: contain;
+     height: 300px;
+     padding-top: 250px;
+     image-rendering: crisp-edges;
+ }
+
+ /* Tiêu đề */
+ .title-news {
+     display: inline-block;
+     background: #556b2f;
+     color: white;
+
+     padding: 10px 25px;
+
+     font-size: 24px;
+     font-weight: bold;
+
+     position: relative;
+ }
+
+ .title-news::after {
+     content: "";
+
+     position: absolute;
+     top: 0;
+     right: -20px;
+
+     width: 0;
+     height: 0;
+
+     border-top: 25px solid transparent;
+     border-bottom: 25px solid transparent;
+     border-left: 20px solid #d89b2b;
+ }
+
+ /* Tin lớn */
+ .news-big {
+     position: relative;
+     overflow: hidden;
+ }
+
+ .news-big img {
+     width: 100%;
+     height: 500px;
+
+     object-fit: cover;
+     transition: 0.5s;
+ }
+
+ .news-big:hover img {
+     transform: scale(1.05);
+ }
+
+ .news-text {
+     position: absolute;
+     bottom: 0;
+
+     width: 100%;
+
+     background: rgba(0, 0, 0, 0.5);
+     color: white;
+
+     padding: 15px;
+
+     font-size: 24px;
+     font-weight: bold;
+
+     text-decoration: none;
+     display: block;
+
+     transition: 0.3s;
+ }
+
+ /* Tin nhỏ */
+ .news-small {
+     position: relative;
+     overflow: hidden;
+ }
+
+ .news-small img {
+     width: 100%;
+     height: 240px;
+
+     object-fit: cover;
+
+     transition: 0.5s;
+ }
+
+ .news-small:hover img {
+     transform: scale(1.05);
+ }
+
+ .news-text-small {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+
+     width: 100%;
+
+     background: rgba(0, 0, 0, 0.5);
+     color: white;
+
+     padding: 10px;
+
+     font-size: 18px;
+     font-weight: bold;
+
+     text-decoration: none;
+
+     display: block;
+ }
+
+ /* Tiêu đề */
+ .section-title {
+     display: inline-block;
+
+     background: #556b2f;
+     color: white;
+
+     padding: 10px 20px;
+
+     font-size: 22px;
+     font-weight: bold;
+
+     position: relative;
+
+     margin-bottom: 20px;
+ }
+
+ .section-title::after {
+     content: "";
+
+     position: absolute;
+     top: 0;
+     right: -20px;
+
+     width: 0;
+     height: 0;
+
+     border-top: 25px solid transparent;
+     border-bottom: 25px solid transparent;
+     border-left: 20px solid #d89b2b;
+ }
+
+ .card-content {
+     display: block;
+
+     text-decoration: none;
+
+     color: black;
+
+     padding-top: 15px;
+     padding-bottom: 15px;
+
+     transition: 0.3s;
+ }
+
+ .card-content h4 {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .card-content p {
+     font-size: 13px;
+     color: #666;
+
+     line-height: 1.6;
+ }
+
+ .card-content:hover h3 {
+     color: #0d6efd;
+ }
+
+ /* Card */
+ .card-news {
+     background: #d6e5f1;
+
+     overflow: hidden;
+
+     transition: 0.3s;
+ }
+
+ .card-news img {
+     width: 100%;
+     height: 350px;
+
+     object-fit: cover;
+
+     transition: 0.5s;
+ }
+
+ .card-news:hover img {
+     transform: scale(1.05);
+ }
+
+ .card-news h3 {
+     font-size: 30px;
+
+     margin-top: 15px;
+
+     font-weight: bold;
+ }
+
+ .card-news p {
+     font-size: 20px;
+
+     color: #666;
+
+     line-height: 1.6;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ ul {
+     text-align: start;
+ }
+
+ /* Nút quay về đầu trang */
+ #backToTop {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+
+     width: 50px;
+     height: 50px;
+
+     border: none;
+     border-radius: 50%;
+
+     background-color: #0d6efd;
+     color: white;
+
+     font-size: 24px;
+     font-weight: bold;
+
+     cursor: pointer;
+
+     display: none;
+
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+     transition: 0.3s;
+ }
+
+ #backToTop:hover {
+     background-color: #084298;
+     transform: scale(1.1);
+ }
