@@ -43,26 +43,26 @@
  }
 
  .bg_image1 {
-     background-image: url("./image/taixuong1.jpg");
+     background-image: url("./image/bgdulich1.jpg");
      background-size: contain;
      height: 300px;
-     padding-top: 250px;
+     padding-top: 255px;
      image-rendering: crisp-edges;
  }
 
  .bg_image2 {
-     background-image: url("./image/taixuong2.jpg");
+     background-image: url("./image/bfdulich2.jpg");
      background-size: contain;
      height: 300px;
-     padding-top: 250px;
+     padding-top: 255px;
      image-rendering: crisp-edges;
  }
 
  .bg_image3 {
-     background-image: url("./image/taixuong3.jpg");
-     background-size: contain;
+     background-image: url("./image/bfdulich3.jpg");
+     background-size: cover;
      height: 300px;
-     padding-top: 250px;
+     padding-top: 255px;
      image-rendering: crisp-edges;
  }
 
