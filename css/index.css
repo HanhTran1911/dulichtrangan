@@ -43,7 +43,7 @@
  }
 
  .bg_image1 {
-     background-image: url("./image/bgdulich1.jpg");
+     background-image: url("../image/bgdulich1.jpg");
      background-size: contain;
      height: 300px;
      padding-top: 255px;
@@ -51,7 +51,7 @@
  }
 
  .bg_image2 {
-     background-image: url("./image/bfdulich2.jpg");
+     background-image: url("../image/bfdulich2.jpg");
      background-size: contain;
      height: 300px;
      padding-top: 255px;
@@ -59,7 +59,7 @@
  }
 
  .bg_image3 {
-     background-image: url("./image/bfdulich3.jpg");
+     background-image: url("../image/bfdulich3.jpg");
      background-size: cover;
      height: 300px;
      padding-top: 255px;
